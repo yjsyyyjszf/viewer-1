@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<preset-voi-luts>
+  <group modality ="CT">
+    <presets>
+      <preset keystroke="F3" factory="Linear Preset">
+        <configuration>
+          <item key="PresetName" value="胸部" />
+          <item key="WindowWidth" value="350" />
+          <item key="WindowCenter" value="40" />
+        </configuration>
+      </preset>
+      <preset keystroke="F4" factory="Linear Preset">
+        <configuration>
+          <item key="PresetName" value="腹部/骨盆" />
+          <item key="WindowWidth" value="350" />
+          <item key="WindowCenter" value="40" />
+        </configuration>
+      </preset>
+      <preset keystroke="F5" factory="Linear Preset">
+        <configuration>
+          <item key="PresetName" value="肺" />
+          <item key="WindowWidth" value="1500" />
+          <item key="WindowCenter" value="-600" />
+        </configuration>
+      </preset>
+      <preset keystroke="F6" factory="Linear Preset">
+        <configuration>
+          <item key="PresetName" value="脑" />
+          <item key="WindowWidth" value="80" />
+          <item key="WindowCenter" value="40" />
+        </configuration>
+      </preset>
+      <preset keystroke="F7" factory="Linear Preset">
+        <configuration>
+          <item key="PresetName" value="骨" />
+          <item key="WindowWidth" value="2500" />
+          <item key="WindowCenter" value="480" />
+        </configuration>
+      </preset>
+      <preset keystroke="F8" factory="Linear Preset">
+        <configuration>
+          <item key="PresetName" value="头/颈部" />
+          <item key="WindowWidth" value="350" />
+          <item key="WindowCenter" value="90" />
+        </configuration>
+      </preset>
+    </presets>
+  </group>
+</preset-voi-luts>

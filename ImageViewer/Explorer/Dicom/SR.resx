@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ColumnHeadingAccessionNumber" xml:space="preserve">
+    <value>流水号</value>
+  </data>
+  <data name="ColumnHeadingAttachments" xml:space="preserve">
+    <value>附件</value>
+  </data>
+  <data name="ColumnHeadingAvailability" xml:space="preserve">
+    <value>有效性</value>
+  </data>
+  <data name="ColumnHeadingDateOfBirth" xml:space="preserve">
+    <value>出生日期</value>
+  </data>
+  <data name="ColumnHeadingFirstName" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="ColumnHeadingIdeographicName" xml:space="preserve">
+    <value>Ideographic Name</value>
+  </data>
+  <data name="ColumnHeadingLastName" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="ColumnHeadingModality" xml:space="preserve">
+    <value>设备</value>
+  </data>
+  <data name="ColumnHeadingNumberOfInstances" xml:space="preserve">
+    <value>图像数</value>
+  </data>
+  <data name="ColumnHeadingPatientId" xml:space="preserve">
+    <value>编号</value>
+  </data>
+  <data name="ColumnHeadingPhoneticName" xml:space="preserve">
+    <value>拼音名</value>
+  </data>
+  <data name="ColumnHeadingReferringPhysician" xml:space="preserve">
+    <value>医生</value>
+  </data>
+  <data name="ColumnHeadingServer" xml:space="preserve">
+    <value>服务器</value>
+  </data>
+  <data name="ColumnHeadingStudyDate" xml:space="preserve">
+    <value>检查日期</value>
+  </data>
+  <data name="ColumnHeadingStudyDescription" xml:space="preserve">
+    <value>描述</value>
+  </data>
+  <data name="FormatNeverSearchedReindexing" xml:space="preserve">
+    <value>(重建图像索引) {0}</value>
+  </data>
+  <data name="FormatStudiesFound" xml:space="preserve">
+    <value>{0}个检查</value>
+  </data>
+  <data name="FormatStudiesFoundReindexing" xml:space="preserve">
+    <value>{1}上的检查：{0}(重建图像索引)</value>
+  </data>
+  <data name="FormatUnableToQueryServer" xml:space="preserve">
+    <value>无法查询 {0}:  {1}</value>
+  </data>
+  <data name="LinkOpenActivityMonitor" xml:space="preserve">
+    <value>任务监视器</value>
+  </data>
+  <data name="MenuDeleteStudy" xml:space="preserve">
+    <value>删除检查</value>
+  </data>
+  <data name="MenuOpenStudy" xml:space="preserve">
+    <value>打开</value>
+  </data>
+  <data name="MenuRetrieveStudy" xml:space="preserve">
+    <value>提取</value>
+  </data>
+  <data name="MenuSendStudy" xml:space="preserve">
+    <value>发送</value>
+  </data>
+  <data name="MessageCannotOpenNonStreamingStudy" xml:space="preserve">
+    <value>无法打开图像，服务器不具有流能力</value>
+  </data>
+  <data name="MessageConfirmContinueOpenSearch" xml:space="preserve">
+    <value>无条件查询，会花费很长时间，你是否要继续？</value>
+  </data>
+  <data name="MessageConfirmDeleteStudies" xml:space="preserve">
+    <value>你是否要删除选中的检查？</value>
+  </data>
+  <data name="MessageConfirmDeleteStudy" xml:space="preserve">
+    <value>你是否要删除选中的检查？</value>
+  </data>
+  <data name="MessageConfirmSendToMultipleServers" xml:space="preserve">
+    <value>多个服务器被选中，你是否要继续？</value>
+  </data>
+  <data name="MessageFailedToOpenStudy" xml:space="preserve">
+    <value>打开图像失败</value>
+  </data>
+  <data name="MessageErrorRetrievingStudies" xml:space="preserve">
+    <value>获取操作失败</value>
+  </data>
+  <data name="MessageErrorSendingStudies" xml:space="preserve">
+    <value>发送操作失败</value>
+  </data>
+  <data name="MessageFormatXNonStreamingStudiesCannotBeOpened" xml:space="preserve">
+    <value>{0}无法打开图像，服务器不具有流能力</value>
+  </data>
+  <data name="MessageFromDateCannotBeAfterToDate" xml:space="preserve">
+    <value>起始时间制定错误</value>
+  </data>
+  <data name="MessageInvalidPatientsName" xml:space="preserve">
+    <value>病人姓名格式化无效</value>
+  </data>
+  <data name="MessageOneNonStreamingStudyCannotBeOpened" xml:space="preserve">
+    <value>无法打开图像，服务器不具有流能力</value>
+  </data>
+  <data name="MessageOneOfSelectedStudiesInUse" xml:space="preserve">
+    <value>检查正在浏览中，请关闭浏览窗口</value>
+  </data>
+  <data name="MessageOpenStudyPermissionDenied" xml:space="preserve">
+    <value>无权查看</value>
+  </data>
+  <data name="MessageRetrieveDicomServerServiceNotRunning" xml:space="preserve">
+    <value>本地服务器没有启动</value>
+  </data>
+  <data name="MessageSearchStudyPermissionDenied" xml:space="preserve">
+    <value>无权检索检查</value>
+  </data>
+  <data name="MessageSelectDestination" xml:space="preserve">
+    <value>请选择服务器</value>
+  </data>
+  <data name="MessageSelectedStudyInUse" xml:space="preserve">
+    <value>检查正在浏览中，请关闭浏览窗口</value>
+  </data>
+  <data name="MessageSendDicomServerServiceNotRunning" xml:space="preserve">
+    <value>本地服务器没有启动</value>
+  </data>
+  <data name="MessageFormatSendStudyScheduled" xml:space="preserve">
+    <value>将{1} [{2}发送到 {0}, A#:{3}] 任务添加到工作队列中.</value>
+  </data>
+  <data name="MessageSomeOfSelectedStudiesInUse" xml:space="preserve">
+    <value>{0}检查正在浏览中，请关闭浏览窗口</value>
+  </data>
+  <data name="NotificationDetailsReindexCancelled" xml:space="preserve">
+    <value>必须重新执行此操作，否则可能无法打开检查图像</value>
+  </data>
+  <data name="NotificationDetailsReindexCompleted" xml:space="preserve">
+    <value>重建索引完成</value>
+  </data>
+  <data name="NotificationDetailsReindexFailed" xml:space="preserve">
+    <value>重建索引失败</value>
+  </data>
+  <data name="NotificationDetailsReindexRunning" xml:space="preserve">
+    <value>重建索引正在进行中...</value>
+  </data>
+  <data name="NotificationDetailsReindexScheduled" xml:space="preserve">
+    <value>将重建索引任务添加到工作列表中</value>
+  </data>
+  <data name="NotificationReindexCancelled" xml:space="preserve">
+    <value>取消重建索引</value>
+  </data>
+  <data name="NotificationReindexComplete" xml:space="preserve">
+    <value>重建索引完成</value>
+  </data>
+  <data name="NotificationReindexFailed" xml:space="preserve">
+    <value>重建索引失败</value>
+  </data>
+  <data name="NotificationReindexRunning" xml:space="preserve">
+    <value>重建索引正在执行中</value>
+  </data>
+  <data name="NotificationReindexScheduled" xml:space="preserve">
+    <value>计划任务-重建索引</value>
+  </data>
+  <data name="PathDicom" xml:space="preserve">
+    <value>DICOM</value>
+  </data>
+  <data name="PathExplorer" xml:space="preserve">
+    <value>Explorer</value>
+  </data>
+  <data name="TitleDicomExplorer" xml:space="preserve">
+    <value>DICOM</value>
+  </data>
+  <data name="TitleSearch" xml:space="preserve">
+    <value>查询</value>
+  </data>
+  <data name="TitleSearchPanelPane" xml:space="preserve">
+    <value>查询窗口</value>
+  </data>
+  <data name="TitleSendStudy" xml:space="preserve">
+    <value>发送检查</value>
+  </data>
+  <data name="TitleServerTreePane" xml:space="preserve">
+    <value>服务器列表</value>
+  </data>
+  <data name="TitleStudyBrowserPane" xml:space="preserve">
+    <value>浏览检查</value>
+  </data>
+  <data name="TitleStudyNavigatorPane" xml:space="preserve">
+    <value>导航检查</value>
+  </data>
+  <data name="ToolbarDeleteStudy" xml:space="preserve">
+    <value>删除检查</value>
+  </data>
+  <data name="ToolbarOpenStudy" xml:space="preserve">
+    <value>打开</value>
+  </data>
+  <data name="ToolbarRetrieveStudy" xml:space="preserve">
+    <value>提取</value>
+  </data>
+  <data name="ToolbarSendStudy" xml:space="preserve">
+    <value>发送</value>
+  </data>
+  <data name="TooltipDeleteStudy" xml:space="preserve">
+    <value>删除检查</value>
+  </data>
+  <data name="TooltipHideDuplicateStudies" xml:space="preserve">
+    <value>隐藏副本</value>
+  </data>
+  <data name="TooltipOpenStudy" xml:space="preserve">
+    <value>打开</value>
+  </data>
+  <data name="TooltipRetrieveStudy" xml:space="preserve">
+    <value>提取</value>
+  </data>
+  <data name="TooltipSendStudy" xml:space="preserve">
+    <value>发送</value>
+  </data>
+  <data name="TooltipShowAllStudies" xml:space="preserve">
+    <value>显示所有检查</value>
+  </data>
+  <data name="ValidationInvalidCharacters" xml:space="preserve">
+    <value>包含无效字符</value>
+  </data>
+  <data name="ValidationInvalidLastNameSearch" xml:space="preserve">
+    <value>包含无效字符</value>
+  </data>
+  <data name="MessageErrorDeletingStudies" xml:space="preserve">
+    <value>删除操作失败</value>
+  </data>
+  <data name="MessageFormatDeleteStudyScheduled" xml:space="preserve">
+    <value>将删除 {0} [{1}, A#:{2}] 检查任务添加到工作队列中.</value>
+  </data>
+  <data name="ColumnHeadingDeleteOn" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="ColumnHeadingPatientName" xml:space="preserve">
+    <value>姓名</value>
+  </data>
+  <data name="FormatDueToday" xml:space="preserve">
+    <value>今天 {0}</value>
+  </data>
+  <data name="FormatDueTomorrow" xml:space="preserve">
+    <value>明天 {0}</value>
+  </data>
+  <data name="FormatDueYesterday" xml:space="preserve">
+    <value>昨天 {0}</value>
+  </data>
+  <data name="PastDue" xml:space="preserve">
+    <value>无效</value>
+  </data>
+  <data name="MessageFormatDeleteStudiesScheduled" xml:space="preserve">
+    <value>将删除{0}检查任务添加到工作队列中.</value>
+  </data>
+  <data name="MessageFormatSendStudiesScheduled" xml:space="preserve">
+    <value>将发送{0}检查任务添加到工作队列中</value>
+  </data>
+  <data name="ColumnHeadingInstitutionName" xml:space="preserve">
+    <value>机构名称</value>
+  </data>
+  <data name="ColumnHeadingSourceAETitle" xml:space="preserve">
+    <value>DICOM Server</value>
+  </data>
+  <data name="ColumnHeadingStationName" xml:space="preserve">
+    <value>工作站名称</value>
+  </data>
+  <data name="MessageFormatRetrieveStudiesScheduled" xml:space="preserve">
+    <value>将获取{0} 检查任务添加到工作队列中.</value>
+  </data>
+  <data name="MessageFormatRetrieveStudyScheduled" xml:space="preserve">
+    <value>将从 {3} 中获取 {0} [{1}, A#:{2}]  检查任务添加到工作队列中.</value>
+  </data>
+  <data name="MessageProcessedItemsProgress" xml:space="preserve">
+    <value>处理 {1}中的{0}项目 ...</value>
+  </data>
+</root>
